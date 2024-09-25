@@ -64,4 +64,4 @@ async function delSerie(id) {
     }
 }
 
-modules.exports = criarSerie, listarSeries, attSerie, delSerie;
+module.exports = {criarSerie, listarSeries, attSerie, delSerie};
